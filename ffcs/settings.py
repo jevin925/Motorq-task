@@ -86,13 +86,22 @@ WSGI_APPLICATION = 'ffcs.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'ffcs',
+#         'USER': 'postgres',
+#         'PASSWORD': '1234',
+#         'HOST': 'localhost'
+#     }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ffcs',
-        'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': 'localhost'
+        'NAME': 'd80lm4skqbgtnu',
+        'USER': 'jwuudswzwcnksw',
+        'PASSWORD': 'bc95ed153f5be21450d718cbf35a233b3146196e5e20e61a3b846768536ec3be',
+        'HOST': 'ec2-35-153-91-18.compute-1.amazonaws.com'
     }
 }
 
